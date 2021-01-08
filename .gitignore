@@ -17,6 +17,18 @@ out/
 #  Uncomment the following line in case you need and you don't have the release build type files in your app
 # release/
 
+*.idea
+.gradle
+*.keystore
+/local.properties
+/.idea/*
+.DS_Store
+/build
+/captures
+.cxx
+keystore.properties
+icon.png
+
 # Gradle files
 .gradle/
 build/
