@@ -5,3 +5,4 @@ An input method editor (IME) is a user control that enables users to enter text.
 ## References
 
 - [Create an input method](https://developer.android.com/guide/topics/text/creating-input-method)
+- [Image keyboard support](https://developer.android.com/guide/topics/text/image-keyboard)
