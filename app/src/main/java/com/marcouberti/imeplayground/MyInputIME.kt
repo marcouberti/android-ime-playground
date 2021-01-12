@@ -69,6 +69,8 @@ class MyInputIME : InputMethodService(), OnKeyboardActionListener {
     override fun onStartInputView(info: EditorInfo?, restarting: Boolean) {
         super.onStartInputView(info, restarting)
 
+        println("### App package that is using the keyboard: ${info?.packageName}")
+
         // Image content setup
         val mimeTypes: Array<String> = EditorInfoCompat.getContentMimeTypes(info)
 
